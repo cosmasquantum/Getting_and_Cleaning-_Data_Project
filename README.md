@@ -11,7 +11,7 @@ This repository contains the appropriate files related to the 'Getting and Clean
     - 'CodeBook.md'
 
 
-### Content of the files in this repository:
+### Content of the files:
 
 - The file 'CodeBook.md' contains information on the content of the variables and files.
 
