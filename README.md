@@ -28,8 +28,18 @@ This repository contains the appropriate files related to the 'Getting and Clean
          - 'activity_labels.txt': List of activities
          - 'features.txt': List of features
 
-       into the variables: TestData, yTestData, SubjectsTest, TrainData, yTrainData, SubjectsTrain, 
-       Activities, Features, respectively.
+       into the variables: 
+
+         - TestData
+         - yTestData 
+         - SubjectsTest 
+         - TrainData 
+         - yTrainData 
+         - SubjectsTrain, 
+         - Activities 
+         - Features
+        
+        respectively.
 
     2) merges the training and the test sets to create the combined data sets: Data, yData, Subject.
     
