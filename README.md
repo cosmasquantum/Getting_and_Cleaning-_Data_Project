@@ -50,6 +50,6 @@ This repository contains the appropriate files related to the 'Getting and Clean
          
          - newData
 
-4) creates a second, independent tidy data set containing the average of each variable for each activity and each subject:
+    4) creates a second, independent tidy data set containing the average of each variable for each activity and each subject:
 
          - TidyData
