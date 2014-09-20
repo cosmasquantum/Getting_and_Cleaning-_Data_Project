@@ -11,7 +11,7 @@ This repository contains the appropriate files related to the 'Getting and Clean
     - 'CodeBook.md'
 
 
-### Content of the files:
+### Content of the files and procedure information:
 
 - The file 'run_analysis.R' includes code written in R performing the following steps:
 
