@@ -18,7 +18,6 @@ This repository contains the appropriate files related to the 'Getting and Clean
 - The file 'run_analysis.R' includes code written in R which does the following:
 
     1) loads the data of the following files, contained in the 'UCI HAR Dataset' directory:
-
          - 'test/X_test.txt': Test set
          - 'test/y_test.txt': Test labels
          - 'test/subject_test.txt': Test subject list
@@ -27,7 +26,6 @@ This repository contains the appropriate files related to the 'Getting and Clean
          - 'train/subject_train.txt': Train Subject list
          - 'activity_labels.txt': List of activities
          - 'features.txt': List of features
-
         into the variables: TestData, yTestData, SubjectsTest, TrainData, yTrainData, SubjectsTrain, 
         Activities, Features, respectively.
 
