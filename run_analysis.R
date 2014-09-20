@@ -12,27 +12,27 @@ Activities <- read.table("./UCI HAR Dataset/activity_labels.txt")
 Features <- read.table("./UCI HAR Dataset/features.txt")
 
 ### Merging the training and the test sets. ###
-# Merge Data
+# Merging Data
 Data <- rbind(TestData,TrainData)
-# Merge yData
+# Merging yData
 yData <- rbind(yTestData,yTrainData)
-# Merge Subjects
+# Merging Subjects
 Subject <- as.vector(rbind(SubjectsTest,SubjectsTrain)[,1])
 
 ### Extracting only the measurements on the mean and standard deviation for each measurement. ###
-# Create a character vector containing all features
+# Creating a character vector containing all features
 Features <- as.vector(Features[,2])
-# Find the columns that containt the pattern: "mean()" 
+# Finding the columns that containt the pattern: "mean()"
 PatternMean <- grep("mean()",Features)
-# Find the columns that contain the pattern: "std()" 
+# Finding the columns that contain the pattern: "std()"
 PatternStd <- grep("std()",Features)
-# Combine them and sort the resulting vector
+# Combining them and sort the resulting vector
 Pattern <- sort(c(PatternStd,PatternMean))
-# Extract the values from Data
+# Extracting the values from Data
 newData <- Data[,Pattern]
 
-### Use descriptive activity names to name the activities in the data set. ###
-# Transform the numbers in yData into activity names using Activities as dictionary
+### Using descriptive activity names to name the activities in the data set. ###
+# Transforming the numbers in yData into activity names using Activities as dictionary
 newActivities <- as.vector(Activities[,2])
 Activity <- newActivities[as.vector(t(yData))]
 
