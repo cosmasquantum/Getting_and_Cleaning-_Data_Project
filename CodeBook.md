@@ -1,4 +1,4 @@
-Codebook describing each variable and its values in the tidy data set 'TidyData'.
+Codebook describing the tidy data set 'TidyData' and the variables contained.
 
 ===========================================================================================
 
