@@ -13,6 +13,8 @@ This repository contains the appropriate files related to the 'Getting and Clean
 
 ### Content of the files in this repository:
 
+- The file 'CodeBook.md' contains information on the content of the variables and files.
+
 - The file 'run_analysis.R' includes code written in R which does the following:
 
     1) loads the data of the following files, contained in the 'UCI HAR Dataset' directory:
@@ -35,6 +37,3 @@ This repository contains the appropriate files related to the 'Getting and Clean
        newData
 
     4) creates a second, independent tidy data set, namely TidyData with the average of each variable for each activity and each subject.
-
-
-- The file 'CodeBook.md' contains information on the content of the variables and files.
