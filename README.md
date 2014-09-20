@@ -53,3 +53,6 @@ This repository contains the appropriate files related to the 'Getting and Clean
     4) creates a second, independent tidy data set containing the average of each variable for each activity and each subject:
 
          - TidyData
+### Note:
+
+- Additional descriptive information on each step of the procedure is provided in the 'run_analysis.R' file itself.
