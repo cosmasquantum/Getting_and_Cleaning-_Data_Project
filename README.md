@@ -6,11 +6,9 @@ This repository contains the appropriate files related to the 'Getting and Clean
 
 ### This repository contains the following files:
 
-- 'README.md'
-
-- 'run_analysis.R'
-
-- 'CodeBook.md'
+    - 'README.md'
+    - 'run_analysis.R'
+    - 'CodeBook.md'
 
 
 ### Content of the files in this repository:
