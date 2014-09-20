@@ -21,9 +21,6 @@ The 'TidyData' is a data frame containing 10,229 observations (rows) of 81 varia
     fBodyAccJerkMag
     fBodyGyroMag
     fBodyGyroJerkMag
-
-These signals were used to estimate variables of the feature vector for each pattern '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. Additional vectors obtained by averaging the signals in a signal window sample:
-
     gravityMean
     tBodyAccMean
     tBodyAccJerkMean
