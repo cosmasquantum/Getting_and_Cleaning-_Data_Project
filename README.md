@@ -13,7 +13,7 @@ This repository contains the appropriate files related to the 'Getting and Clean
 
 ### Content of the files:
 
-- The file 'run_analysis.R' includes code written in R which does the following:
+- The file 'run_analysis.R' includes code written in R performing the following steps:
 
     1) loads the data of the following files, contained in the 'UCI HAR Dataset' directory:
 
