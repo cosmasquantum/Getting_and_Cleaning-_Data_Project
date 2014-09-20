@@ -39,11 +39,15 @@ This repository contains the appropriate files related to the 'Getting and Clean
          - Activities 
          - Features
         
-        respectively.
 
-    2) merges the training and the test sets to create the combined data sets: Data, yData, Subject.
+    2) merges the training and the test sets to create the combined data sets: 
+
+         - Data 
+         - yData 
+         - Subject
     
     3) extracts only the mean and standard deviation for each measurement and creates a new data set: 
-       newData
+         
+         - newData
 
     4) creates a second, independent tidy data set, namely TidyData with the average of each variable for each activity and each subject.
